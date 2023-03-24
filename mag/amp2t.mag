@@ -1,0 +1,52 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1679615319
+<< checkpaint >>
+rect 386 2574 3432 2886
+rect -648 2415 3432 2574
+rect -648 2345 3801 2415
+rect -1313 2162 3801 2345
+rect -1313 2109 4274 2162
+rect -1313 2056 4747 2109
+rect -1313 -713 5220 2056
+rect -648 -766 5220 -713
+rect -279 -819 5220 -766
+rect 386 -872 5220 -819
+rect 859 -925 5220 -872
+rect 1228 -978 5220 -925
+rect 1701 -1031 5220 -978
+rect 2174 -1084 5220 -1031
+use sky130_fd_pr__pfet_01v8_XJ35BL  XM1
+timestamp 1679614750
+transform 1 0 306 0 1 816
+box -359 -269 359 269
+use sky130_fd_pr__nfet_01v8_ATLS57  XM2
+timestamp 1679614750
+transform 1 0 823 0 1 904
+box -211 -410 211 410
+use sky130_fd_pr__pfet_01v8_XJ35BL  XM3
+timestamp 1679614750
+transform 1 0 1340 0 1 710
+box -359 -269 359 269
+use sky130_fd_pr__pfet_01v8_XGWHBL  XM4
+timestamp 1679614750
+transform 1 0 1909 0 1 1007
+box -263 -619 263 619
+use sky130_fd_pr__nfet_01v8_ATLS57  XM5
+timestamp 1679614750
+transform 1 0 2330 0 1 745
+box -211 -410 211 410
+use sky130_fd_pr__nfet_01v8_DJ7QE5  XM6
+timestamp 1679614750
+transform 1 0 2751 0 1 592
+box -263 -310 263 310
+use sky130_fd_pr__nfet_01v8_DJ7QE5  XM7
+timestamp 1679614750
+transform 1 0 3224 0 1 539
+box -263 -310 263 310
+use sky130_fd_pr__nfet_01v8_DJ7QE5  XM8
+timestamp 1679614750
+transform 1 0 3697 0 1 486
+box -263 -310 263 310
+<< end >>
