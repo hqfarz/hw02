@@ -1,0 +1,98 @@
+* SPICE3 file created from amp2.ext - technology: sky130A
+
+.subckt amp2 Y INp INn VDD VSS
+X0 VSS VDD VDD VSS sky130_fd_pr__nfet_01v8 ad=0.31 pd=2.62 as=0.165 ps=1.33 w=1 l=0.15
+X1 VDD VDD VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.31 ps=2.62 w=1 l=0.15
+X2 li_520_n189# INn li_608_520# VSS sky130_fd_pr__nfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
+X3 VDD a_416_608# li_608_520# VDD sky130_fd_pr__pfet_01v8 ad=0.0825 pd=0.83 as=0.0825 ps=0.83 w=0.5 l=0.15
+X4 VDD a_416_608# li_608_520# VDD sky130_fd_pr__pfet_01v8 ad=0.155 pd=1.62 as=0.0825 ps=0.83 w=0.5 l=0.15
+X5 li_608_520# a_416_608# VDD VDD sky130_fd_pr__pfet_01v8 ad=0.0825 pd=0.83 as=0.155 ps=1.62 w=0.5 l=0.15
+X6 li_608_520# a_416_608# VDD VDD sky130_fd_pr__pfet_01v8 ad=0.0825 pd=0.83 as=0.0825 ps=0.83 w=0.5 l=0.15
+X7 Y li_608_520# VDD VDD sky130_fd_pr__pfet_01v8 ad=0.66 pd=4.33 as=1.24 ps=8.62 w=4 l=0.15
+X8 VDD li_608_520# Y VDD sky130_fd_pr__pfet_01v8 ad=1.24 pd=8.62 as=0.66 ps=4.33 w=4 l=0.15
+X9 li_520_n189# INp a_416_608# VSS sky130_fd_pr__nfet_01v8 ad=0.910025 pd=7.245 as=0.58 ps=4.58 w=2 l=0.15
+X10 VSS VDD Y VSS sky130_fd_pr__nfet_01v8 ad=1.28003 pd=10.565 as=0.33 ps=2.66 w=1 l=0.15
+X11 Y VDD VSS VSS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.15
+X12 VSS VDD li_520_n189# VSS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.15
+X13 li_520_n189# VDD VSS VSS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.15
+X14 VDD a_416_608# a_416_608# VDD sky130_fd_pr__pfet_01v8 ad=3.28502 pd=25.465 as=0.33 ps=3.32 w=0.5 l=0.15
+X15 VDD a_416_608# a_416_608# VDD sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.5 l=0.15
+X16 a_416_608# a_416_608# VDD VDD sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.5 l=0.15
+X17 a_416_608# a_416_608# VDD VDD sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.5 l=0.15
+X18 VDD.t1 VDD.t0 VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.31 ps=2.62 w=0 l=0
+X19 li_520_n189# INn.t0 li_608_520# VSS sky130_fd_pr__nfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=0 l=0
+X20 VSS VDD.t6 li_520_n189# VSS sky130_fd_pr__nfet_01v8 ad=0.31 pd=2.62 as=0.165 ps=1.33 w=0 l=0
+X21 li_520_n189# VDD.t7 VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.31 ps=2.62 w=0 l=0
+X22 VSS VDD.t4 Y VSS sky130_fd_pr__nfet_01v8 ad=0.31 pd=2.62 as=0.165 ps=1.33 w=0 l=0
+X23 li_520_n189# INp.t0 a_416_608# VSS sky130_fd_pr__nfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=0 l=0
+X24 VSS VDD.t2 VDD.t3 VSS sky130_fd_pr__nfet_01v8 ad=0.31 pd=2.62 as=0.165 ps=1.33 w=0 l=0
+X25 Y VDD.t5 VSS VSS sky130_fd_pr__nfet_01v8 ad=0.165 pd=1.33 as=0.31 ps=2.62 w=0 l=0
+C0 VSS INn 0.00727fF
+C1 VSS Y 0.18041fF
+C2 INp VDD 0.02211fF
+C3 a_416_608# INp 0.03596fF
+C4 INp li_608_520# 0.00047fF
+C5 VSS VDD 0.33338fF
+C6 VSS a_416_608# 0.00500fF
+C7 li_520_n189# INn 0.02285fF
+C8 VSS li_608_520# 0.01064fF
+C9 li_520_n189# Y 0.01120fF
+C10 li_520_n189# VDD 0.06623fF
+C11 a_416_608# li_520_n189# 0.12996fF
+C12 li_520_n189# li_608_520# 0.15426fF
+C13 INn Y 0.00018fF
+C14 VSS INp 0.00773fF
+C15 INn VDD 0.02059fF
+C16 a_416_608# INn 0.01199fF
+C17 INn li_608_520# 0.05121fF
+C18 VDD Y 0.60118fF
+C19 a_416_608# Y 0.00039fF
+C20 li_608_520# Y 0.16422fF
+C21 li_520_n189# INp 0.02285fF
+C22 a_416_608# VDD 1.18625fF
+C23 VSS li_520_n189# 0.15303fF
+C24 li_608_520# VDD 0.61487fF
+C25 a_416_608# li_608_520# 0.11741fF
+C26 INn INp 0.03145fF
+R0 VDD.n1 VDD.t4 339.006
+R1 VDD VDD.n6 261.835
+R2 VDD.n5 VDD.t0 195.72
+R3 VDD.n4 VDD.t2 184.766
+R4 VDD.n3 VDD.t7 184.766
+R5 VDD.n2 VDD.t6 184.766
+R6 VDD.n1 VDD.t5 184.766
+R7 VDD.n2 VDD.n1 154.24
+R8 VDD.n3 VDD.n2 154.24
+R9 VDD.n4 VDD.n3 154.24
+R10 VDD.n6 VDD.n5 111.054
+R11 VDD.n5 VDD.n4 72.3
+R12 VDD.n6 VDD.n0 60.436
+R13 VDD.n0 VDD.t3 19.8
+R14 VDD.n0 VDD.t1 19.8
+R15 VSS VSS.n2 428.805
+R16 VSS.n2 VSS.n1 194.833
+R17 VSS.n1 VSS.n0 194.833
+R18 INn INn.t0 465.279
+R19 INp INp.t0 469.043
+C27 VDD.t3 0 0.02220fF **FLOATING
+C28 VDD.t1 0 0.02220fF **FLOATING
+C29 VDD.n0 0 0.08770fF **FLOATING
+C30 VDD.t2 0 0.02654fF **FLOATING
+C31 VDD.t7 0 0.02654fF **FLOATING
+C32 VDD.t6 0 0.02654fF **FLOATING
+C33 VDD.t5 0 0.02654fF **FLOATING
+C34 VDD.t4 0 0.03760fF **FLOATING
+C35 VDD.n1 0 0.04423fF **FLOATING
+C36 VDD.n2 0 0.03098fF **FLOATING
+C37 VDD.n3 0 0.03098fF **FLOATING
+C38 VDD.n4 0 0.02583fF **FLOATING
+C39 VDD.t0 0 0.02737fF **FLOATING
+C40 VDD.n5 0 0.04994fF **FLOATING
+C41 VDD.n6 0 0.38262fF **FLOATING
+C42 li_520_n189# 0 0.07840fF **FLOATING
+C43 VSS 0 0.02586fF
+C44 VDD 0 6.28985fF
+C45 INp 0 0.11159fF
+C46 li_608_520# 0 0.03721fF **FLOATING
+C47 INn 0 0.11484fF
+.ends
